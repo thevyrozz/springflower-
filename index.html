@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indiana Spring Flowers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+        ol {
+            margin: 20px 40px;
+        }
+        li {
+            font-size: 18px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+       
+        let header = document.createElement('header');
+        let headerTitle = document.createElement('h1');
+        headerTitle.textContent = "Indiana Spring Flowers";
+        header.append(headerTitle);
+
+
+        document.body.append(header);
+
+       
+        let paragraph = document.createElement('p');
+        paragraph.textContent = "Indiana is home to many beautiful flowers that bloom in spring. Below are some of the most notable ones:";
+        document.body.append(paragraph);
+
+        
+        let ol = document.createElement('ol');
+
+
+       
+        document.body.appendChild(ol);
+    </script>
+
+</body>
+</html>
